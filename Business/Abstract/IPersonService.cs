@@ -16,7 +16,7 @@ namespace Business.Abstract
         IDataResult<Person>GetByUserId(int UserId);
         IDataResult<Person> GetByImageId(int ImageId);
         IDataResult<Person> GetByCityId(int CityId);
-        IDataResult<Person> GetByUniversityId(int UniversityId);
+        IDataResult<Person> GetByUniversityId(int  UniversityId);
         
 
 
